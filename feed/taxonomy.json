@@ -1,0 +1,42 @@
+{
+  "_comment": "Controlled vocabulary for feed generation. scripts/refresh_feed.py should map whatever a source calls a category/skill onto the matching id here via aliases, never write a source's raw term straight into feed.json. Add new entries as new source terms turn up - do not add a second id for something that already has an alias slot.",
+  "categories": [
+    { "id": "climate_finance", "label": "Climate finance", "aliases": ["green finance", "climate investment", "sustainable finance"] },
+    { "id": "climate_adaptation", "label": "Climate adaptation", "aliases": ["adaptation", "resilience programming"] },
+    { "id": "development", "label": "Development", "aliases": ["international development", "ngo programmes", "development sector"] },
+    { "id": "programme_management", "label": "Programme management", "aliases": ["project management", "program management", "project delivery"] },
+    { "id": "credit_risk", "label": "Credit risk", "aliases": ["credit analysis", "risk management", "lending risk"] },
+    { "id": "ai_evaluation", "label": "AI / data evaluation", "aliases": ["ai training", "model evaluation", "data labelling", "rlhf"] },
+    { "id": "remote_work", "label": "Remote work", "aliases": ["work from home", "remote-first", "distributed team"] },
+    { "id": "hr", "label": "HR & people ops", "aliases": ["human resources", "people operations", "talent"] },
+    { "id": "administration", "label": "Administration", "aliases": ["admin support", "office administration", "executive assistant"] },
+    { "id": "customer_ops", "label": "Customer operations", "aliases": ["customer service", "contact centre", "call center", "customer success", "client support"] },
+    { "id": "retail", "label": "Retail", "aliases": ["retail operations", "store management", "merchandising"] },
+    { "id": "hospitality", "label": "Hospitality", "aliases": ["hotel", "front office", "guest services"] },
+    { "id": "fellowship", "label": "Fellowship", "aliases": ["leadership programme", "fellowship programme"] },
+    { "id": "leadership", "label": "Leadership", "aliases": ["executive leadership", "civic leadership"] },
+    { "id": "agriculture", "label": "Agriculture", "aliases": ["agri", "agribusiness", "farming"] }
+  ],
+  "skills": [
+    { "id": "financial_modelling", "label": "Financial modelling", "aliases": ["financial modeling", "model building"] },
+    { "id": "credit_analysis", "label": "Credit analysis", "aliases": ["credit assessment", "loan analysis"] },
+    { "id": "excel", "label": "Excel", "aliases": ["microsoft excel", "spreadsheets", "advanced excel"] },
+    { "id": "ms_office", "label": "Microsoft Office", "aliases": ["office suite", "word/excel/powerpoint"] },
+    { "id": "impact_measurement", "label": "Impact measurement", "aliases": ["m&e", "monitoring and evaluation", "impact assessment"] },
+    { "id": "agri_finance", "label": "Agricultural finance", "aliases": ["agri-finance", "farm finance"] },
+    { "id": "programme_management", "label": "Programme management", "aliases": ["project management skills", "programme delivery"] },
+    { "id": "stakeholder_management", "label": "Stakeholder management", "aliases": ["stakeholder engagement", "partner relations"] },
+    { "id": "civic_leadership", "label": "Civic leadership", "aliases": ["community leadership"] },
+    { "id": "employee_relations", "label": "Employee relations", "aliases": ["industrial relations", "workplace relations"] },
+    { "id": "compensation_management", "label": "Compensation management", "aliases": ["comp & benefits", "reward management"] },
+    { "id": "communication", "label": "Communication", "aliases": ["written and verbal communication", "interpersonal skills"] },
+    { "id": "written_english", "label": "Written English", "aliases": ["business writing", "english proficiency"] },
+    { "id": "french", "label": "French", "aliases": ["french language", "francophone"] },
+    { "id": "customer_service", "label": "Customer service", "aliases": ["client service", "customer care"] },
+    { "id": "scheduling", "label": "Scheduling", "aliases": ["rostering", "shift planning"] },
+    { "id": "team_supervision", "label": "Team supervision", "aliases": ["staff supervision", "people management"] },
+    { "id": "inventory_management", "label": "Inventory management", "aliases": ["stock management", "stock control"] },
+    { "id": "cash_reconciliation", "label": "Cash reconciliation", "aliases": ["cash balancing", "cash drawer balancing", "end-of-day reconciliation"] },
+    { "id": "python", "label": "Python", "aliases": ["python programming"] }
+  ]
+}

@@ -1,0 +1,64 @@
+name: Build debug APK
+
+# This runs the actual compile check that couldn't be done in the sandbox
+# this project was built in - GitHub's runners have the Android SDK and
+# google() Maven access, neither of which were reachable there. Runs the
+# real FitEngineTest.kt suite too, with real JUnit this time instead of the
+# local shim used during development (see README's "What's verified vs. not").
+#
+# Trigger it either by pushing to main, or manually from the Actions tab
+# (Actions -> Build debug APK -> Run workflow) if you want a build without
+# committing anything new.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: gradle-
+
+      - name: Run unit tests
+        run: ./gradlew test
+
+      - name: Build debug APK
+        run: ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: kazi-sasa-debug-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: app/build/test-results/**/*.xml
+          if-no-files-found: ignore

@@ -1,0 +1,51 @@
+{
+  "_comment": "Registry of known sources and the confidence level scripts/refresh_feed.py should assign them by default. This is the actual governance artifact behind spec §14's 'never present aggregated/scraped info as official unless it comes directly from an official source' - a collector should look a source up here rather than deciding confidence ad hoc per listing.",
+  "sources": [
+    {
+      "name": "ReliefWeb",
+      "domain": "reliefweb.int",
+      "default_confidence": "official",
+      "notes": "UN OCHA-run job board aggregating official postings from UN agencies and major NGOs - treated as official because listings link back to the hiring organisation's own posting, not a third-party repost."
+    },
+    {
+      "name": "YALI Network",
+      "domain": "yali.state.gov",
+      "default_confidence": "official",
+      "notes": "U.S. Department of State's own fellowship platform."
+    },
+    {
+      "name": "Employer career page",
+      "domain": null,
+      "default_confidence": "official",
+      "notes": "Any listing fetched directly from an organisation's own /careers or /jobs page - confidence comes from the fetch target, not a fixed domain list."
+    },
+    {
+      "name": "BrighterMonday",
+      "domain": "brightermonday.co.ke",
+      "default_confidence": "aggregated",
+      "notes": "Reputable Kenyan job board, but a third-party repost - never the employer's own page."
+    },
+    {
+      "name": "MyJobMag",
+      "domain": "myjobmag.co.ke",
+      "default_confidence": "aggregated"
+    },
+    {
+      "name": "RemoteOK",
+      "domain": "remoteok.com",
+      "default_confidence": "aggregated"
+    },
+    {
+      "name": "Fuzu",
+      "domain": "fuzu.com",
+      "default_confidence": "aggregated"
+    },
+    {
+      "name": "Newsletter or WhatsApp forward",
+      "domain": null,
+      "default_confidence": "community",
+      "notes": "No independent way to verify the original poster - mark community, never aggregated or official, regardless of how the content reads."
+    }
+  ],
+  "default_for_unknown_source": "unverified"
+}

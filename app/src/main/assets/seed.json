@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "feed_version": "2.0",
+    "generated_at": "2026-07-10T06:00:00Z",
+    "next_expected_update": "2026-07-10T18:00:00Z",
+    "opportunity_count": 10,
+    "source_count": 9,
+    "schema_url": "https://raw.githubusercontent.com/dansamuka/kazi-sasa-feed/main/SCHEMA.md",
+    "is_sample_data": true
+  },
+  "profiles": [
+    {
+      "id": "profile_climate_finance",
+      "label": "Climate & Development Finance",
+      "target_lanes": [
+        "climate_finance",
+        "development",
+        "programme_management"
+      ],
+      "core_skills": [
+        "financial_modelling",
+        "credit_analysis",
+        "excel",
+        "impact_measurement"
+      ],
+      "seniority": "senior",
+      "seniority_openness": 1,
+      "location_prefs": {
+        "base_region": "Nairobi",
+        "accepts_remote_kenya": true,
+        "accepts_regional": true,
+        "accepts_international": true,
+        "accepts_relocation": true
+      },
+      "mode_prefs": [
+        "remote_kenya",
+        "hybrid",
+        "onsite"
+      ],
+      "weights": {
+        "skill_match": 1.0,
+        "sector_match": 0.9,
+        "seniority_match": 0.8,
+        "location_fit": 0.6,
+        "mode_fit": 0.5,
+        "growth_signal": 0.4,
+        "recency": 0.3,
+        "deadline_risk": 0.3
+      }
+    },
+    {
+      "id": "profile_corporate_ops",
+      "label": "Corporate & Operations",
+      "target_lanes": [
+        "hr",
+        "administration",
+        "customer_service",
+        "retail",
+        "hospitality"
+      ],
+      "core_skills": [
+        "ms_office",
+        "communication",
+        "scheduling"
+      ],
+      "seniority": "entry",
+      "seniority_openness": 1,
+      "location_prefs": {
+        "base_region": "Nairobi",
+        "accepts_remote_kenya": true,
+        "accepts_regional": false,
+        "accepts_international": false,
+        "accepts_relocation": false
+      },
+      "mode_prefs": [
+        "onsite",
+        "hybrid",
+        "remote_kenya"
+      ],
+      "weights": {
+        "skill_match": 0.9,
+        "sector_match": 0.7,
+        "seniority_match": 0.7,
+        "location_fit": 0.8,
+        "mode_fit": 0.5,
+        "growth_signal": 0.5,
+        "recency": 0.4,
+        "deadline_risk": 0.4
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "ks_2026-07-08_acumen_9f2a1c",
+      "title": "Senior Climate Finance Analyst",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Acumen",
+        "type": "ngo",
+        "verified": true
+      },
+      "location": {
+        "raw": "Nairobi, Kenya",
+        "country": "KE",
+        "region": "Nairobi",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null
+      },
+      "work_mode": "hybrid",
+      "seniority": "senior",
+      "categories": [
+        "climate_finance",
+        "development"
+      ],
+      "skills_required": [
+        "financial_modelling",
+        "credit_analysis",
+        "excel"
+      ],
+      "skills_preferred": [
+        "impact_measurement",
+        "python"
+      ],
+      "posted_at": "2026-07-08T09:00:00Z",
+      "deadline": "2026-07-25T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "period": "year",
+        "disclosed": false
+      },
+      "source": {
+        "name": "ReliefWeb",
+        "url": "https://reliefweb.int/jobs/acumen-senior-climate-finance-analyst",
+        "confidence": "official",
+        "last_seen_at": "2026-07-10T06:00:00Z"
+      },
+      "apply_url": "https://acumen.org/careers/senior-climate-finance-analyst",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": "Open to Kenya-based applicants; work authorisation required.",
+      "summary": "Lead deal analysis and portfolio monitoring across off-grid energy and climate-adjacent investments in East Africa.",
+      "raw_description_url": "https://reliefweb.int/jobs/acumen-senior-climate-finance-analyst"
+    },
+    {
+      "id": "ks_2026-07-06_responsability_3b7e2d",
+      "title": "Credit Risk Associate, Energy Access",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "responsAbility Investments",
+        "type": "private",
+        "verified": true
+      },
+      "location": {
+        "raw": "Remote (Kenya)",
+        "country": "KE",
+        "region": "Nairobi",
+        "is_remote_from_kenya": true,
+        "scope": "national",
+        "relocation_country": null
+      },
+      "work_mode": "remote_kenya",
+      "seniority": "mid",
+      "categories": [
+        "climate_finance",
+        "credit_risk"
+      ],
+      "skills_required": [
+        "credit_analysis",
+        "excel",
+        "financial_modelling"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-07-06T09:00:00Z",
+      "deadline": "2026-07-20T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "responsAbility Careers",
+        "url": "https://www.responsability.com/careers",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-09T12:00:00Z"
+      },
+      "apply_url": "https://www.responsability.com/careers/credit-risk-associate",
+      "apply_is_official": false,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Support borrowing-base reviews and credit memos for PAYGo solar and productive-use lending clients.",
+      "raw_description_url": "https://www.responsability.com/careers/credit-risk-associate"
+    },
+    {
+      "id": "ks_2026-07-01_giz_7a1d9e",
+      "title": "Country Programme Lead, Climate Adaptation",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "GIZ",
+        "type": "multilateral",
+        "verified": true
+      },
+      "location": {
+        "raw": "Kampala, Uganda",
+        "country": "UG",
+        "region": "Kampala",
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": "Uganda"
+      },
+      "work_mode": "onsite",
+      "seniority": "leadership",
+      "categories": [
+        "development",
+        "climate_adaptation",
+        "programme_management"
+      ],
+      "skills_required": [
+        "programme_management",
+        "stakeholder_management"
+      ],
+      "skills_preferred": [
+        "french"
+      ],
+      "posted_at": "2026-06-28T09:00:00Z",
+      "deadline": "2026-07-31T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": "EUR",
+        "period": "year",
+        "disclosed": false
+      },
+      "source": {
+        "name": "ReliefWeb",
+        "url": "https://reliefweb.int/jobs/giz-country-programme-lead",
+        "confidence": "official",
+        "last_seen_at": "2026-07-09T06:00:00Z"
+      },
+      "apply_url": "https://jobs.giz.de/country-programme-lead",
+      "apply_is_official": true,
+      "flags": [
+        "relocation_worthy"
+      ],
+      "eligibility_notes": "Requires eligibility to work in Uganda or sponsorship via GIZ.",
+      "summary": "Direct a multi-country climate adaptation portfolio spanning agriculture and water security.",
+      "raw_description_url": "https://reliefweb.int/jobs/giz-country-programme-lead"
+    },
+    {
+      "id": "ks_2026-07-09_invisible_5c8f31",
+      "title": "AI Data Evaluator (Contract, Finance Domain)",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Invisible Technologies",
+        "type": "private",
+        "verified": true
+      },
+      "location": {
+        "raw": "Remote (Global)",
+        "country": null,
+        "region": null,
+        "is_remote_from_kenya": true,
+        "scope": "international",
+        "relocation_country": null
+      },
+      "work_mode": "remote_global",
+      "seniority": "mid",
+      "categories": [
+        "ai_evaluation",
+        "remote_work"
+      ],
+      "skills_required": [
+        "financial_modelling",
+        "written_english"
+      ],
+      "skills_preferred": [
+        "credit_analysis"
+      ],
+      "posted_at": "2026-07-09T09:00:00Z",
+      "deadline": "2026-07-18T23:59:00Z",
+      "deadline_confidence": "inferred",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": "USD",
+        "period": "hour",
+        "disclosed": false
+      },
+      "source": {
+        "name": "RemoteOK",
+        "url": "https://remoteok.com/remote-jobs/invisible-ai-data-evaluator",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-10T04:00:00Z"
+      },
+      "apply_url": "https://invisible.co/careers/ai-data-evaluator",
+      "apply_is_official": false,
+      "flags": [
+        "ai_relevant"
+      ],
+      "eligibility_notes": null,
+      "summary": "Evaluate AI model outputs on finance and credit-analysis tasks for a US-based AI training platform.",
+      "raw_description_url": "https://remoteok.com/remote-jobs/invisible-ai-data-evaluator"
+    },
+    {
+      "id": "ks_2026-07-05_safaricom_1e9a44",
+      "title": "HR Business Partner",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Safaricom PLC",
+        "type": "employer",
+        "verified": true
+      },
+      "location": {
+        "raw": "Nairobi, Kenya",
+        "country": "KE",
+        "region": "Nairobi",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null
+      },
+      "work_mode": "onsite",
+      "seniority": "mid",
+      "categories": [
+        "hr"
+      ],
+      "skills_required": [
+        "employee_relations",
+        "ms_office"
+      ],
+      "skills_preferred": [
+        "compensation_management"
+      ],
+      "posted_at": "2026-07-05T09:00:00Z",
+      "deadline": "2026-07-22T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "Safaricom Careers",
+        "url": "https://www.safaricom.co.ke/careers",
+        "confidence": "official",
+        "last_seen_at": "2026-07-09T09:00:00Z"
+      },
+      "apply_url": "https://www.safaricom.co.ke/careers/hr-business-partner",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Partner with a commercial division on talent, performance, and employee-relations matters.",
+      "raw_description_url": "https://www.safaricom.co.ke/careers/hr-business-partner"
+    },
+    {
+      "id": "ks_2026-06-30_sarova_2d4b18",
+      "title": "Front Office Supervisor",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Sarova Hotels",
+        "type": "employer",
+        "verified": true
+      },
+      "location": {
+        "raw": "Mombasa, Kenya",
+        "country": "KE",
+        "region": "Mombasa",
+        "is_remote_from_kenya": false,
+        "scope": "local",
+        "relocation_country": null
+      },
+      "work_mode": "onsite",
+      "seniority": "entry",
+      "categories": [
+        "hospitality"
+      ],
+      "skills_required": [
+        "customer_service",
+        "scheduling"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-06-30T09:00:00Z",
+      "deadline": "2026-07-15T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "MyJobMag",
+        "url": "https://www.myjobmag.co.ke/job/front-office-supervisor-sarova",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-08T09:00:00Z"
+      },
+      "apply_url": "https://www.sarovahotels.com/careers/front-office-supervisor",
+      "apply_is_official": false,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Oversee front-desk operations and guest experience for a coastal resort property.",
+      "raw_description_url": "https://www.myjobmag.co.ke/job/front-office-supervisor-sarova"
+    },
+    {
+      "id": "ks_2026-06-20_yali_8e3c77",
+      "title": "Mandela Washington Fellowship for Young African Leaders",
+      "opportunity_type": "fellowship",
+      "organisation": {
+        "name": "YALI / U.S. Department of State",
+        "type": "multilateral",
+        "verified": true
+      },
+      "location": {
+        "raw": "United States (6-week academic + leadership institute)",
+        "country": "US",
+        "region": null,
+        "is_remote_from_kenya": false,
+        "scope": "international",
+        "relocation_country": "United States"
+      },
+      "work_mode": "onsite",
+      "seniority": "mid",
+      "categories": [
+        "development",
+        "leadership",
+        "fellowship"
+      ],
+      "skills_required": [],
+      "skills_preferred": [
+        "programme_management",
+        "civic_leadership"
+      ],
+      "posted_at": "2026-06-20T09:00:00Z",
+      "deadline": "2026-09-15T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "YALI Network",
+        "url": "https://yali.state.gov/mwf",
+        "confidence": "official",
+        "last_seen_at": "2026-07-05T09:00:00Z"
+      },
+      "apply_url": "https://yali.state.gov/mwf/apply",
+      "apply_is_official": true,
+      "flags": [
+        "hidden_gem"
+      ],
+      "eligibility_notes": "Open to applicants aged 25-35 from Sub-Saharan Africa with a demonstrated leadership record. Fully funded.",
+      "summary": "A fully-funded U.S. leadership institute and professional development experience for young African leaders across business, civic, and public-management tracks.",
+      "raw_description_url": "https://yali.state.gov/mwf"
+    },
+    {
+      "id": "ks_2026-07-03_sunculture_4f1a92",
+      "title": "Credit Analyst, Agri-Finance",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "SunCulture",
+        "type": "employer",
+        "verified": true
+      },
+      "location": {
+        "raw": "Nairobi, Kenya",
+        "country": "KE",
+        "region": "Nairobi",
+        "is_remote_from_kenya": false,
+        "scope": "national",
+        "relocation_country": null
+      },
+      "work_mode": "hybrid",
+      "seniority": "mid",
+      "categories": [
+        "climate_finance",
+        "development"
+      ],
+      "skills_required": [
+        "credit_analysis",
+        "excel"
+      ],
+      "skills_preferred": [
+        "agri_finance"
+      ],
+      "posted_at": "2026-07-03T09:00:00Z",
+      "deadline": "2026-07-24T23:59:00Z",
+      "deadline_confidence": "explicit",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "SunCulture Careers",
+        "url": "https://sunculture.com/careers",
+        "confidence": "official",
+        "last_seen_at": "2026-07-09T09:00:00Z"
+      },
+      "apply_url": "https://sunculture.com/careers/credit-analyst-agri-finance",
+      "apply_is_official": true,
+      "flags": [],
+      "eligibility_notes": null,
+      "summary": "Assess borrower creditworthiness for a solar-powered irrigation asset-financing portfolio.",
+      "raw_description_url": "https://sunculture.com/careers/credit-analyst-agri-finance"
+    },
+    {
+      "id": "ks_2026-06-25_naivas_6b2e05",
+      "title": "Retail Store Supervisor",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Naivas Limited",
+        "type": "employer",
+        "verified": true
+      },
+      "location": {
+        "raw": "Nakuru, Kenya",
+        "country": "KE",
+        "region": "Nakuru",
+        "is_remote_from_kenya": false,
+        "scope": "local",
+        "relocation_country": null
+      },
+      "work_mode": "onsite",
+      "seniority": "entry",
+      "categories": [
+        "retail"
+      ],
+      "skills_required": [
+        "inventory_management",
+        "team_supervision"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-06-25T09:00:00Z",
+      "deadline": "2026-07-12T23:59:00Z",
+      "deadline_confidence": "inferred",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "BrighterMonday",
+        "url": "https://www.brightermonday.co.ke/job/retail-store-supervisor-naivas",
+        "confidence": "aggregated",
+        "last_seen_at": "2026-07-07T09:00:00Z"
+      },
+      "apply_url": "https://www.brightermonday.co.ke/job/retail-store-supervisor-naivas",
+      "apply_is_official": false,
+      "flags": [
+        "urgent"
+      ],
+      "eligibility_notes": null,
+      "summary": "Manage daily store operations, stock levels, and a supervisory team at a large-format retail branch.",
+      "raw_description_url": "https://www.brightermonday.co.ke/job/retail-store-supervisor-naivas"
+    },
+    {
+      "id": "ks_2026-06-15_cx_kenya_0a9d63",
+      "title": "Customer Experience Associate (Remote)",
+      "opportunity_type": "job",
+      "organisation": {
+        "name": "Unlisted BPO Recruiter",
+        "type": "unverified",
+        "verified": false
+      },
+      "location": {
+        "raw": "Remote (Kenya)",
+        "country": "KE",
+        "region": null,
+        "is_remote_from_kenya": true,
+        "scope": "national",
+        "relocation_country": null
+      },
+      "work_mode": "remote_kenya",
+      "seniority": "entry",
+      "categories": [
+        "customer_ops",
+        "remote_work"
+      ],
+      "skills_required": [
+        "communication"
+      ],
+      "skills_preferred": [],
+      "posted_at": "2026-06-15T09:00:00Z",
+      "deadline": null,
+      "deadline_confidence": "unknown",
+      "compensation": {
+        "min": null,
+        "max": null,
+        "currency": null,
+        "period": null,
+        "disclosed": false
+      },
+      "source": {
+        "name": "Community WhatsApp forward",
+        "url": "https://example-unverified-board.com/cx-remote-kenya",
+        "confidence": "unverified",
+        "last_seen_at": "2026-06-20T09:00:00Z"
+      },
+      "apply_url": "https://example-unverified-board.com/cx-remote-kenya/apply",
+      "apply_is_official": false,
+      "flags": [
+        "eligibility_review"
+      ],
+      "eligibility_notes": "Source could not be verified against an official employer page - treat with caution and never pay a fee to apply.",
+      "summary": "A remote customer-support role circulated via community channels; organisation identity is unconfirmed.",
+      "raw_description_url": null
+    }
+  ]
+}

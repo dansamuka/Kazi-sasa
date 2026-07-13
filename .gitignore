@@ -1,0 +1,29 @@
+# Build outputs
+*.iml
+.gradle/
+/build/
+/app/build/
+/captures
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/*
+!.idea/codeStyles/
+!.idea/runConfigurations.xml
+*.hprof
+
+# Keystores - never commit a real signing key
+*.jks
+*.keystore
+
+# OS noise
+.DS_Store
+
+# Log/tmp
+*.log
+
+# Python (feed/scripts/)
+__pycache__/
+*.pyc

@@ -1,0 +1,6 @@
+Room writes versioned schema JSON here automatically on every build
+(app/build.gradle.kts -> ksp { arg("room.schemaLocation", ...) }).
+
+Nothing to do here manually - just commit whatever Room generates. The first
+real file will land at com.kazisasa.app.data.local.AppDatabase/1.json after
+your first successful build.

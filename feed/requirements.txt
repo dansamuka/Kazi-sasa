@@ -1,0 +1,4 @@
+# scripts/validate_feed.py and refresh_feed.py currently use only the standard
+# library. requests is listed pre-emptively since any real collector you add to
+# build_from_reliefweb_stub (or similar) will need it to actually fetch anything.
+requests>=2.31
